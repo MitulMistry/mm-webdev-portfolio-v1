@@ -1,0 +1,19 @@
+
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:400,600';
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+.jumbotron h1 {
+  font-size: 3em;
+}
+
+.jumbotron p {
+  font-size: 1.2em;
+}
