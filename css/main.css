@@ -3,21 +3,43 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
+  color: #6E060A;
 }
 
 h1 {
   font-size: 1.5em;
   font-weight: 600;
+  color: #FA0E17;
+}
+
+.jumbotron {
+  background-color: #6E060A;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 1.3em;
 }
 
 .jumbotron h1 {
   font-size: 3em;
+  color: white;
+}
+
+.jumbotron h2 {
+  color: white;
+}
+
+.jumbo-stripe {
+  background-color: #FA0E17;
+  padding-top: .2em;
 }
 
 .jumbotron p {
+  margin-top: .5em;
   font-size: 1.2em;
+  color: white;
 }
 
 .jumbotron a {
   margin: 0 .5em 0 .5em;
+  color: gray;
 }
