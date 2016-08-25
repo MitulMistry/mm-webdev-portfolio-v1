@@ -37,6 +37,35 @@ hr {
   border-top: 2px solid #ddd;
 }
 
+a {
+  color: #6E060A;
+}
+
+a:hover {
+  color: #FA0E17;
+}
+
+.contact a {
+  color: #373a3c;
+}
+
+.contact-icons {
+  margin-top: .7em;
+}
+
+.contact-icons a {
+  margin-right: 1em;
+  color: gray;
+  transition: color 0.1s linear;
+  -o-transition: color 0.1s linear;
+  -moz-transition: color 0.1s linear;
+  -webkit-transition: color 0.1s linear;
+}
+
+.contact-icons a:hover {
+  color: #373a3c;
+}
+
 .jumbotron {
   background-color: #6E060A;
   padding-left: 0;
@@ -69,9 +98,18 @@ hr {
 .jumbotron a {
   margin: 0 .5em 0 .5em;
   color: gray;
+  transition: color 0.1s linear;
+  -o-transition: color 0.1s linear;
+  -moz-transition: color 0.1s linear;
+  -webkit-transition: color 0.1s linear;
+}
+
+.jumbotron a:hover {
+  color: white;
 }
 
 .footer-copyright {
+  margin: 4em 0 2em 0;
   color: gray;
 }
 
