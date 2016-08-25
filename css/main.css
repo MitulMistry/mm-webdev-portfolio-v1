@@ -3,13 +3,38 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
-  color: #6E060A;
+  /*color: #6E060A;*/
 }
 
 h1 {
+  margin: 1em 0 .8em 0;
   font-size: 1.5em;
   font-weight: 600;
   color: #FA0E17;
+}
+
+h2 {
+  font-size: 1.3em;
+  font-weight: 600;
+  color: #FA0E17;
+}
+
+p {
+  margin-bottom: .4em;
+}
+
+ul {
+  font-size: .9em;
+  color: gray;
+}
+
+img {
+  padding-bottom: 1em;
+}
+
+hr {
+  margin-top: 1.5em;
+  border-top: 2px solid #ddd;
 }
 
 .jumbotron {
@@ -20,11 +45,13 @@ h1 {
 }
 
 .jumbotron h1 {
+  margin: 0 0 .2em 0;
   font-size: 3em;
   color: white;
 }
 
 .jumbotron h2 {
+  font-size: 2em;
   color: white;
 }
 
@@ -42,4 +69,18 @@ h1 {
 .jumbotron a {
   margin: 0 .5em 0 .5em;
   color: gray;
+}
+
+.footer-copyright {
+  color: gray;
+}
+
+.row-web-app {
+  margin-bottom: 2em;
+}
+
+.btn-web-app {
+  padding: .5rem .75rem;
+  font-size: .9rem;
+  border-radius: .2rem;
 }
