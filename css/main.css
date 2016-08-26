@@ -45,29 +45,9 @@ a:hover {
   color: #FA0E17;
 }
 
-.contact a {
-  color: #373a3c;
-}
-
-.contact-icons {
-  margin-top: .7em;
-}
-
-.contact-icons a {
-  margin-right: 1em;
-  color: gray;
-  transition: color 0.1s linear;
-  -o-transition: color 0.1s linear;
-  -moz-transition: color 0.1s linear;
-  -webkit-transition: color 0.1s linear;
-}
-
-.contact-icons a:hover {
-  color: #373a3c;
-}
-
 .jumbotron {
   background-color: #6E060A;
+  border-radius: 0;
   padding-left: 0;
   padding-right: 0;
   padding-bottom: 1.3em;
@@ -117,8 +97,41 @@ a:hover {
   margin-bottom: 2em;
 }
 
+.col-app {
+  margin-bottom: 2em;
+}
+
 .btn-web-app {
   padding: .5rem .75rem;
   font-size: .9rem;
   border-radius: .2rem;
+}
+
+.contact a {
+  color: #373a3c;
+}
+
+.contact-icons {
+  margin-top: .7em;
+}
+
+.contact-icons a {
+  margin-right: 1em;
+  color: gray;
+  transition: color 0.1s linear;
+  -o-transition: color 0.1s linear;
+  -moz-transition: color 0.1s linear;
+  -webkit-transition: color 0.1s linear;
+}
+
+.contact-icons a:hover {
+  color: #373a3c;
+}
+
+footer a {
+  color: gray;
+}
+
+footer a:hover {
+  color: #373a3c;
 }
