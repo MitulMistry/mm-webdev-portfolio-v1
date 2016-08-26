@@ -47,6 +47,8 @@ a:hover {
 
 .jumbotron {
   background-color: #6E060A;
+  background-image: url("../img/subtle_bg_01.png");
+	background-repeat: repeat;
   border-radius: 0;
   padding-left: 0;
   padding-right: 0;
