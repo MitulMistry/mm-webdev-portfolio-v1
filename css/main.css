@@ -26,6 +26,13 @@ p {
 ul {
   font-size: .9em;
   color: gray;
+  list-style: none; /* get rid of bullets to be replaced with li:before rule */
+  padding-left: 1em;
+}
+
+li:before { /* set bullets to plus signs */
+    content: "+";
+    margin-right: 4px;
 }
 
 img {
