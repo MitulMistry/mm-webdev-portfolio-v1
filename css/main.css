@@ -36,7 +36,11 @@ li:before { /* set bullets to plus signs */
 }
 
 img {
-  padding-bottom: 1em;
+  margin-bottom: 1em;
+}
+
+.img-app {
+  border: 1px solid #6E060A;
 }
 
 hr {
