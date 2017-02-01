@@ -79,7 +79,7 @@ a:hover {
 
 .jumbo-stripe {
   background-color: #FA0E17;
-  padding-top: .2em;
+  padding: .25em 0 .1em 0;
 }
 
 .jumbotron p {
