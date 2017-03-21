@@ -56,6 +56,10 @@ a:hover {
   color: #FA0E17;
 }
 
+a:focus {
+  color: #8C2327;
+}
+
 .jumbotron {
   background-color: #6E060A;
   background-image: url("../img/subtle_bg_01.png");
