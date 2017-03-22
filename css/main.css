@@ -6,6 +6,12 @@ body {
   /*color: #6E060A;*/
 }
 
+@media (min-width: 1200px) {
+  .container {
+    width: 960px;
+  }
+}
+
 h1 {
   margin: 1em 0 .8em 0;
   font-size: 1.5em;
