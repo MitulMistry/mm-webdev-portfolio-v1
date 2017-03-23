@@ -16,20 +16,20 @@ h1 {
   margin: 1em 0 .8em 0;
   font-size: 1.5em;
   font-weight: 600;
-  color: #FA0E17;
+  color: #292b2c;
 }
 
 h2 {
   font-size: 1.3em;
   font-weight: 600;
-  color: #FA0E17;
+  color: #292b2c;
 }
 
 p {
   margin-bottom: .4em;
 }
 
-ul {
+ul {``
   font-size: .9em;
   color: gray;
   list-style: none; /* get rid of bullets to be replaced with li:before rule */
@@ -55,20 +55,20 @@ hr {
 }
 
 a {
-  color: #6E060A;
+  color: #07A9DB;
 }
 
 a:hover {
-  color: #FA0E17;
+  color: #0782A8;
 }
 
 a:focus {
-  color: #8C2327;
+  /*color: #8C2327;*/
 }
 
 .jumbotron {
-  background-color: #6E060A;
-  background-image: url("../img/subtle_bg_01.png");
+  background-color: #07A9DB;
+  background-image: url("../img/subtle_bg_02.png");
 	background-repeat: repeat;
   border-radius: 0;
   padding-left: 0;
@@ -88,7 +88,7 @@ a:focus {
 }
 
 .jumbo-stripe {
-  background-color: #FA0E17;
+  background-color: #07A9DB;
   padding: .25em 0 .1em 0;
 }
 
