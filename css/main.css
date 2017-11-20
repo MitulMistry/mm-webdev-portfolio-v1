@@ -67,6 +67,15 @@ a:focus {
   /*color: #8C2327;*/
 }
 
+.btn-light {
+  background-color: white;
+  border: 1px #ccc solid;
+}
+
+.btn-light:hover {
+  border-color: #333333;
+}
+
 .jumbotron {
   background-color: black;
   background-image: url("../img/subtle_bg_02.png");
